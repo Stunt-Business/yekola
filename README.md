@@ -18,7 +18,7 @@ Notre prémière rencontre a eu lieu le Vendredi **30 mai 2025** et le début de
 - Lien de la présentation: https://drive.google.com/file/d/1Omscz11EZzk-PGF-Gk4oMIWr3I8n3M_6/view?usp=sharing
 - Vidéo de la présentation: https://www.youtube.com/watch?v=DmNnu2_RSMg
 
-# Pile technologie 
+# Pile technologique
 
 L'application est développé avec les technologies suivantes:
 
