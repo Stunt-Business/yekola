@@ -48,7 +48,7 @@ TODO
 
 TODO 
 
-Spreasheet: 
+**Spreasheet:** 
 
 
 # Horaire des rencontres en vidéoconférence 
