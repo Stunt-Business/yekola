@@ -62,7 +62,10 @@ Les responsables de ce projet peuvent etre contactés aux adresses suivantes:
 - Benjamin Viranga Kataliko: benjamin.kataliko@stuntbusiness.ca, Stunt Business Inc. 
 - Daniel Mabanza: mrdanielmabanza@gmail.com 
 
-Veuillez s'il vous plait mettre le docteur Jean-Marie Mbeya (jean-marie.beya@unikin.ac.cd) et Celestin Mudogo (jean-marie.beya@unikin.ac.cd) en CC lorsque vous nous contactez.
+Veuillez s'il vous plait mettre en CC les contacts suivants lorsque vous nous contactez: 
+
+- Le docteur Jean-Marie Mbeya (jean-marie.beya@unikin.ac.cd)  
+- Le docteur Celestin Mudogo (jean-marie.beya@unikin.ac.cd) 
 
 # Comment contribuer au projet?
 
