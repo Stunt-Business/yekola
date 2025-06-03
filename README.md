@@ -13,10 +13,10 @@
 
 Yekola est un projet OpenSource visant le territoire Congolais.  Ce projet a été initié par **Stunt Business Inc.** en collaboration avec les étudiants du Groupe de **Génie Électrique et Informatique de l'Université de Kinshasa**. 
 
-Notre prémière rencontre a eu lieu sur le Vendredi **30 mai 2025** et le début de travaux est fixé du **15 juin 2025** au **15 juin 2026**. 
+Notre prémière rencontre a eu lieu le Vendredi **30 mai 2025** et le début des travaux est fixé du **15 juin 2025** au **15 juin 2026**. 
 
 - Lien de la présentation: https://drive.google.com/file/d/1Omscz11EZzk-PGF-Gk4oMIWr3I8n3M_6/view?usp=sharing
-- Vidéo de la présentation: https://drive.google.com/file/d/1sjserhwwo3fLnUkIio4aw5oAPdddPdL1/view?usp=sharing
+- Vidéo de la présentation: https://www.youtube.com/watch?v=DmNnu2_RSMg
 
 # Pile technologie 
 
@@ -65,7 +65,7 @@ Les responsables de ce projet peuvent etre contactés aux adresses suivantes:
 Veuillez s'il vous plait mettre en CC les contacts suivants lorsque vous nous contactez: 
 
 - Le docteur Jean-Marie Mbeya (jean-marie.beya@unikin.ac.cd)  
-- Le docteur Celestin Mudogo (jean-marie.beya@unikin.ac.cd) 
+- Le docteur Haddy Mbuyi (haddy.mbuyi@unikin.ac.cd) 
 
 # Comment contribuer au projet?
 
