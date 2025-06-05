@@ -26,7 +26,6 @@ L'application est développé avec les technologies suivantes:
 - VueJs pour le frontend: https://vuejs.org/guide/scaling-up/testing.html
 - Github pour le système de controle des versions: https://github.com/
 
-
 # Horaire de l'implémentation
 
 Le cycle de développement logiciel est suivi pour ce projet. 
@@ -59,8 +58,8 @@ TODO
 
 Les responsables de ce projet peuvent etre contactés aux adresses suivantes:
 
-- Benjamin Viranga Kataliko: benjamin.kataliko@stuntbusiness.ca, Stunt Business Inc. 
-- Daniel Mabanza: mrdanielmabanza@gmail.com 
+- **Benjamin Viranga Kataliko**: benjamin.kataliko@stuntbusiness.ca, Stunt Business Inc. 
+- **Daniel Mabanza**: mrdanielmabanza@gmail.com 
 
 Veuillez s'il vous plait mettre en CC les contacts suivants lorsque vous nous contactez: 
 
@@ -72,3 +71,11 @@ Veuillez s'il vous plait mettre en CC les contacts suivants lorsque vous nous co
 Veuillez suivre les instructions disponibles dans le document ci-dessous:
 
 - https://docs.google.com/presentation/d/1BxnCPTlpnfwqwS0KrWifszgpK4NMnncyCbZcr69mjCU/edit?usp=sharing
+
+
+# Configurer votre environnement local
+
+- Rouler la commande suivant pour installer laravel
+
+`composer global require laravel/installer`
+
