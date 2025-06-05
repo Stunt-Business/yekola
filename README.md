@@ -87,9 +87,11 @@ Veuillez suivre les instructions disponibles dans le document ci-dessous:
 - https://docs.google.com/presentation/d/1BxnCPTlpnfwqwS0KrWifszgpK4NMnncyCbZcr69mjCU/edit?usp=sharing
 
 
-# Configurer votre environnement local
+# Communauté
 
-- Rouler la commande suivant pour installer laravel
+La communauté du projet YEKOLA est disponible sous Google Chat.
 
-`composer global require laravel/installer`
+**https://chat.google.com/room/AAQAiUYBUx8?cls=7**
+
+N'hésitez pas à rejoindre la conversation pour créer ce logiciel.
 
