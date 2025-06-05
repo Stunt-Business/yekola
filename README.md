@@ -66,8 +66,11 @@ Le cycle de développement logiciel est suivi pour ce projet.
 
 # Horaire des rencontres en vidéoconférence 
 
-TODO
-
+| Date   | Google Meet |
+| -------- | --------- |
+|Lundi 20h (Heure de Kinshasa) - 15h (Heure d'Ottawa)| To join the video meeting, click this link: https://meet.google.com/xjo-zpah-stn|
+|Mercredi 20h (Heure de Kinshasa) - 15h (Heure d'Ottawa)| To join the video meeting, click this link: https://meet.google.com/xjo-zpah-stn |
+|Vendredi 20h (Heure de Kinshasa) - 15h (Heure d'Ottawa)| To join the video meeting, click this link: https://meet.google.com/xjo-zpah-stn|
 # Contact
 
 Les responsables de ce projet peuvent etre contactés aux adresses suivantes:
@@ -80,6 +83,15 @@ Veuillez s'il vous plait mettre en CC les contacts suivants lorsque vous nous co
 - Le docteur Jean-Marie Mbeya (jean-marie.beya@unikin.ac.cd)  
 - Le docteur Haddy Mbuyi (haddy.mbuyi@unikin.ac.cd) 
 
+
+# Communauté
+
+La communauté du projet YEKOLA est disponible sous Google Chat.
+
+**https://chat.google.com/room/AAQAiUYBUx8?cls=7**
+
+N'hésitez pas à rejoindre la conversation pour créer ce logiciel.
+
 # Comment contribuer au projet?
 
 Veuillez suivre les instructions disponibles dans le document ci-dessous:
@@ -87,9 +99,7 @@ Veuillez suivre les instructions disponibles dans le document ci-dessous:
 - https://docs.google.com/presentation/d/1BxnCPTlpnfwqwS0KrWifszgpK4NMnncyCbZcr69mjCU/edit?usp=sharing
 
 
-# Configurer votre environnement local
+# Comment configurer votre environnement locale?
 
-- Rouler la commande suivant pour installer laravel
-
-`composer global require laravel/installer`
+--
 
