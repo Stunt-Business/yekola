@@ -32,7 +32,15 @@ Le cycle de développement logiciel est suivi pour ce projet.
 
 ### Planification
 
-TODO 
+| Date   | Description |
+| -------- | --------- |
+| 15 juin 2025 - 21 juin 2025 | Finalisation des exigences fonctionnelles et non fonctionnelles |
+| 22 juin 2025 - 15 décembre 2025 | Développement des exigences du produit minimum viable  (MVP) |
+| **22 juin 2025 - 22 juillet 2025** |  Désign de la base des données pour l'application |
+| **22 juin 2025 - 30 juin 2025** |  Développement de l'interface utilisateur pour chaque module de l'application |
+| 15 décembre 2025 - 31 décembre 2025 | Déploiement du MVP sur le domaine .cd |
+| 1 janvier 2026 - 31 décembre 2026 | Déploiement du MVP sur le domaine .cd |
+
 
 ### Design
 
