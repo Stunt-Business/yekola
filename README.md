@@ -1,5 +1,7 @@
 # Projet YEKOLA
 
+[![main.yml](https://github.com/Stunt-Business/yekola/actions/workflows/main.yml/badge.svg)](https://github.com/Stunt-Business/yekola/actions/workflows/main.yml)
+
 <div style="display: flex; flex-direction:row">
     <a target="_new" 
          href="https://www.linkedin.com/company/stunt-business/">
@@ -108,10 +110,20 @@ Le module de l'application web sont disponible dans le diagramme suivant:
 - URL: [Voir les modules sur LucidChart](https://lucid.app/lucidchart/08951c1b-bcf3-47e6-9b68-8d97a0684ba1/edit?viewport_loc=-11%2C-11%2C2217%2C1076%2C0_0&invitationId=inv_e7639cad-9c4f-462b-827c-5bcbacaf8eef)
 
 
-
---
-
 # Comment configurer votre environnement locale?
 
---
+- Cloner le dossier Github avec la commande:
 
+> git clone https://github.com/Stunt-Business/yekola.git
+
+* Une fois le dossier téléchargé, vous pouvez récupérer les mises à jour avec la commande suivante:
+
+> git pull origin main
+
+* Run composer install
+
+> ./composer install --ignore-platform-req=ext-bcmath
+
+* Install the nodejs packages
+
+> npm install

@@ -1,0 +1,28 @@
+name: Push on the master branch
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+
+  static-code-analysis:
+    uses: ./.github/workflows/static-code-analysis.yml    
+
+  code-linting:
+    needs: "static-code-analysis"
+    uses: ./.github/workflows/lint.yml   
+
+  vitest-tests:
+    needs: "code-linting"
+    name:  Run Vitest Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install Modules
+        run: npm install
+      - name: Run vitest
+        run: npm run vitest-coverage
+        env:
+          LARAVEL_BYPASS_ENV_CHECK: 1
