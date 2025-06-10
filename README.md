@@ -120,10 +120,18 @@ Le module de l'application web sont disponible dans le diagramme suivant:
 
 > git pull origin main
 
-* Run composer install
+* Exécuter l'installation de _composer_
 
-> ./composer install --ignore-platform-req=ext-bcmath
+> composer install --ignore-platform-req=ext-bcmath
 
-* Install the nodejs packages
+* Installer les packages nodejs
 
 > npm install
+
+* Générer une clé d'application pour votre environnement local
+
+> php artisan key:generate
+
+* Ouvrez le bureau Docker et lancez Laravel Sail avec la commande suivante:
+
+> ./vendor/bin/sail up -d
