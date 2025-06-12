@@ -26,7 +26,9 @@ L'application est développé avec les technologies suivantes:
 
 - Laravel pour le backend: https://laravel.com/
 - VueJs pour le frontend: https://vuejs.org/guide/scaling-up/testing.html
+- InertiaJs pour le frontend: https://inertiajs.com/
 - Github pour le système de controle des versions: https://github.com/
+- Tailwind CSS pour le frontend: http://tailwindcss.com/
 
 # Horaire de l'implémentation
 
