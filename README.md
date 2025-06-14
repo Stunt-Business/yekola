@@ -107,10 +107,19 @@ Veuillez suivre les instructions disponibles dans le document ci-dessous:
 
 # Comprendre les modules du projet
 
-Le module de l'application web sont disponible dans le diagramme suivant:
+Les modules de l'application web sont disponibles dans le diagramme suivant:
 
 - URL: [Voir les modules sur LucidChart](https://lucid.app/lucidchart/08951c1b-bcf3-47e6-9b68-8d97a0684ba1/edit?viewport_loc=-11%2C-11%2C2217%2C1076%2C0_0&invitationId=inv_e7639cad-9c4f-462b-827c-5bcbacaf8eef)
 
+# Identification des versions
+
+Nous travaillons avec le [version sémantique](https://semver.org/) pour notre application. 
+
+Les versions de code déployés seront marquées avec le format x.y.z avec 
+
+- **x** : Version MAJEURE lorsque vous effectuez des modifications d'API incompatibles 
+- **y** : Version MINEURE lorsque vous ajoutez des fonctionnalités de manière rétrocompatible 
+- **z** : Version PATCH lorsque vous effectuez des corrections de bogues rétrocompatibles
 
 # Comment configurer votre environnement locale?
 
