@@ -20,7 +20,13 @@ class RegisteredUserController extends Controller
      */
     public function create(): Response
     {
-        return Inertia::render('Auth/Register');
+        /**
+         * Retrieve the valid user profile types
+         */
+        $validProfileTypes = array_keys(config("constants.profile_types"));
+        return Inertia::render('Auth/Register', [
+            "valid_profile_types" => $validProfileTypes
+        ]);
     }
 
     /**
@@ -30,22 +36,29 @@ class RegisteredUserController extends Controller
      */
     public function store(Request $request): RedirectResponse
     {
-        $request->validate([
+
+
+        $validated = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|string|lowercase|email|max:255|unique:'.User::class,
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            // 'profile_type' => ['required', 'string']
         ]);
 
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
+            // 'profile_type' => $validated["profile_type"]
         ]);
 
+        // issue an event 
         event(new Registered($user));
 
+        // authenticate the user
         Auth::login($user);
 
+        // Redirect the user to the dashboard
         return redirect(route('dashboard', absolute: false));
     }
 }
