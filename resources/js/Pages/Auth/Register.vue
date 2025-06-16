@@ -11,7 +11,7 @@ import SelectOptionInput from '@/Components/SelectOptionInput.vue';
 const props = defineProps({
     "valid_profile_types": {
         type: Object, 
-        defautlt: () => ({})
+        default: () => ({})
     }
 });
 
