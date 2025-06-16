@@ -5,12 +5,22 @@ import InputLabel from '@/Components/InputLabel.vue';
 import PrimaryButton from '@/Components/PrimaryButton.vue';
 import TextInput from '@/Components/TextInput.vue';
 import { Head, Link, useForm } from '@inertiajs/vue3';
+import SelectOptionInput from '@/Components/SelectOptionInput.vue';
+
+
+const props = defineProps({
+    "valid_profile_types": {
+        type: Object, 
+        default: () => ({})
+    }
+});
 
 const form = useForm({
     name: '',
     email: '',
     password: '',
     password_confirmation: '',
+    profile_type: ''
 });
 
 const submit = () => {
@@ -25,6 +35,7 @@ const submit = () => {
         <Head title="Register" />
 
         <form @submit.prevent="submit">
+
             <div>
                 <InputLabel for="name" value="Name" />
 
@@ -85,6 +96,30 @@ const submit = () => {
                     required
                     autocomplete="new-password"
                 />
+
+                <InputError
+                    class="mt-2"
+                    :message="form.errors.password_confirmation"
+                />
+            </div>
+
+            <div class="mt-4">
+                <InputLabel
+                    for="password_confirmation"
+                    value="Confirm Password"
+                />
+                
+                <SelectOptionInput
+                    class="w-full"
+                  v-model="form.profile_type">
+                  
+                    <template #content>
+                        <option v-for="(type, index) in valid_profile_types"
+                                :value="type">
+                            {{ type }}    
+                        </option>
+                    </template>
+                </SelectOptionInput>
 
                 <InputError
                     class="mt-2"

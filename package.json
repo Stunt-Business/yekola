@@ -4,7 +4,13 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "prepare": "husky"
+    },
+    "lint-staged": {
+        "**/*.php": "./vendor/bin/pint --config pint.json --preset laravel",
+        "**/*.js": "eslint --fix --config eslint.config.js",
+        "**/*.vue": "eslint --fix --config eslint.config.js"
     },
     "devDependencies": {
         "@inertiajs/vue3": "^2.0.0",
@@ -15,8 +21,11 @@
         "axios": "^1.8.2",
         "concurrently": "^9.0.1",
         "laravel-vite-plugin": "^1.2.0",
+        "eslint": "^9.9.1",
+        "eslint-plugin-vue": "^9.27.0",
         "postcss": "^8.4.31",
         "tailwindcss": "^3.2.1",
+        "husky": "^9.1.6",
         "vite": "^6.2.4",
         "vue": "^3.4.0"
     }

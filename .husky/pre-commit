@@ -1,0 +1,3 @@
+./vendor/bin/phpstan analyse --memory-limit=2G
+lint-staged
+npm run vitest-test
