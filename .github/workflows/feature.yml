@@ -3,7 +3,7 @@ name: Push on the master branch
 on:
   push:
     branches: 
-      - main
+      - YKL-SFR-**
 
 jobs:
 
