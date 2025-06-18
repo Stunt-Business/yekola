@@ -63,9 +63,9 @@ class NewPasswordController extends Controller
             // @phpstan-ignore-next-line
             return redirect()->route('login')->with('status', __($status));
         }
-
-        // @phpstan-ignore-next-line
+        
         throw ValidationException::withMessages([
+            // @phpstan-ignore-next-line
             'email' => [trans($status)],
         ]);
     }
