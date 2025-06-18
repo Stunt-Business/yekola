@@ -23,6 +23,7 @@ class RegisteredUserController extends Controller
         /**
          * Retrieve the valid user profile types
          */
+        // @phpstan-ignore-next-line
         $validProfileTypes = array_keys(config("constants.profile_types"));
         return Inertia::render('Auth/Register', [
             "valid_profile_types" => $validProfileTypes
