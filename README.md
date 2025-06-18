@@ -127,6 +127,10 @@ Les versions de code déployés seront marquées avec le format x.y.z avec
 
 # Comment configurer votre environnement locale?
 
+- Si vous travaillez avec windows, veuillez installer WSL avec la commande suivante
+
+> wsl --install
+
 - Cloner le dossier Github avec la commande:
 
 > git clone https://github.com/Stunt-Business/yekola.git

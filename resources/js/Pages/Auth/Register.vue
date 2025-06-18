@@ -106,7 +106,7 @@ const submit = () => {
             <div class="mt-4">
                 <InputLabel
                     for="password_confirmation"
-                    value="Confirm Password"
+                    value="Profile Types"
                 />
                 
                 <SelectOptionInput
