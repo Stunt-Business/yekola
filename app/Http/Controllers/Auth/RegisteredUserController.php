@@ -24,9 +24,10 @@ class RegisteredUserController extends Controller
          * Retrieve the valid user profile types
          */
         // @phpstan-ignore-next-line
-        $validProfileTypes = array_keys(config("constants.profile_types"));
+        $validProfileTypes = array_keys(config('constants.profile_types'));
+
         return Inertia::render('Auth/Register', [
-            "valid_profile_types" => $validProfileTypes
+            'valid_profile_types' => $validProfileTypes,
         ]);
     }
 
@@ -41,18 +42,18 @@ class RegisteredUserController extends Controller
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|string|lowercase|email|max:255|unique:'.User::class,
-            'password'     => ['required', 'confirmed', Rules\Password::defaults()],
-            'profile_type' => ['required', 'string']
+            'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            'profile_type' => ['required', 'string'],
         ]);
 
         $user = User::create([
-            'name'  => $validated['name'],
+            'name' => $validated['name'],
             'email' => $validated['email'],
-            'password'     => Hash::make($validated['password']),
-            'profile_type' => $validated["profile_type"]
+            'password' => Hash::make($validated['password']),
+            'profile_type' => $validated['profile_type'],
         ]);
 
-        // issue an event 
+        // issue an event
         event(new Registered($user));
 
         // authenticate the user
