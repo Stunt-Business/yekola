@@ -65,7 +65,7 @@ const cssStyle = computed(() => {
       v-if="en_default_option" 
       name="default_option">
       <option value=""> 
-        {{ $t('message.fieldSelectAnItem') }}
+        {{ 'message.fieldSelectAnItem' }}
       </option>
     </slot>
 
