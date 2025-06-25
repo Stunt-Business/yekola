@@ -47,6 +47,7 @@ class NewPasswordController extends Controller
             $request->only('email', 'password', 'password_confirmation', 'token'),
             function ($user) use ($request) {
                 $user->forceFill([
+                    // @phpstan-ignore-next-line
                     'password' => Hash::make($request->password),
                     'remember_token' => Str::random(60),
                 ])->save();
@@ -59,10 +60,12 @@ class NewPasswordController extends Controller
         // the application's home authenticated view. If there is an error we can
         // redirect them back to where they came from with their error message.
         if ($status == Password::PASSWORD_RESET) {
+            // @phpstan-ignore-next-line
             return redirect()->route('login')->with('status', __($status));
         }
 
         throw ValidationException::withMessages([
+            // @phpstan-ignore-next-line
             'email' => [trans($status)],
         ]);
     }

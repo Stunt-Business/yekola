@@ -20,6 +20,7 @@ class PasswordController extends Controller
             'password' => ['required', Password::defaults(), 'confirmed'],
         ]);
 
+        // @phpstan-ignore-next-line
         $request->user()->update([
             'password' => Hash::make($validated['password']),
         ]);

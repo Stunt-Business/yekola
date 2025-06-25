@@ -55,7 +55,7 @@ const submit = () => {
             <div class="mt-4">
                 <InputLabel for="email" value="Email" />
 
-                <TextInput
+                <TextInputf
                     id="email"
                     type="email"
                     class="mt-1 block w-full"
@@ -106,7 +106,7 @@ const submit = () => {
             <div class="mt-4">
                 <InputLabel
                     for="password_confirmation"
-                    value="Confirm Password"
+                    value="Profile Types"
                 />
                 
                 <SelectOptionInput
