@@ -55,7 +55,7 @@ const submit = () => {
             <div class="mt-4">
                 <InputLabel for="email" value="Email" />
 
-                <TextInputf
+                <TextInput
                     id="email"
                     type="email"
                     class="mt-1 block w-full"
